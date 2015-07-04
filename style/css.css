@@ -62,16 +62,15 @@ body
 	text-align: center;
 	font-style: italic;
 }
-#header .header-social, #header-subpage .header-social
+#header .header-text a
 {
-	width: 160px;
-	float: right;
-	margin-top: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
 }
-#header .header-social img, #header-subpage .header-social img
+#header .header-text a:hover
 {
-	height: auto;
-	width: auto;
+	text-decoration: underline;
 }
 #body
 {
